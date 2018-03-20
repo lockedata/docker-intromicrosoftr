@@ -1,0 +1,15 @@
+Package: intrpmicrosoftr
+Title: Get Microsoft R & SQL Server ODBC 13, and other useful things
+Version: 0.1
+Authors@R: person("Steph", "Locke", email = "steph@itsalocke.com", role = c("aut", "cre"))
+Description: Package manifest for ODBC functionality in R nad Mcirosoft R
+Depends: R (>= 3.4.0)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    devtools,
+    DBI,
+    odbc,
+	RODBCext,
+	dplyrXdf
